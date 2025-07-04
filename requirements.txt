@@ -1,0 +1,10 @@
+# Core dependencies
+
+flask
+transformers
+torch
+datasets  
+scikit-learn
+pandas
+numpy
+
