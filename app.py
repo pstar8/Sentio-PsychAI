@@ -52,7 +52,7 @@ def predict():
     return render_template('index.html', prediction=", ".join(prediction) or "No condition detected", user_input=user_input)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=10000)
+    app.run(host="0.0.0.0", port=7860)
 
     # app.run(debug=True)
 
